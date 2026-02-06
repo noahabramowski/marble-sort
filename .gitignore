@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+npm_tmp/
+.cache-loader/
 /.pnp
 .pnp.js
 
@@ -21,3 +23,44 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Distributable/build dir
+/dist
+/compiled
+src/client/index.html
+
+# unit test coverage reports
+/coverage
+jestCoverage
+report.html
+
+# other
+.tmp
+.DS_Store
+/report
+ima.iml
+npm-debug.log
+ima.iml
+*.temp.cache.json
+log/
+stats.json
+*.crt
+/dev/pg-data/
+.eslintcache
+.eslintcachewebpack
+
+# vite
+stats.html
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.
