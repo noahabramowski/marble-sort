@@ -13,15 +13,15 @@
     "@types/react-dom": "^19.2.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
+    "react-scripts": "^0.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json|mts)\""
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +40,31 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "packageManager": "pnpm@10.28.1+sha512.7d7dbbca9e99447b7c3bf7a73286afaaf6be99251eb9498baefa7d406892f67b879adb3a1d7e687fc4ccc1a388c7175fbaae567a26ab44d1067b54fcb0d6a316",
+  "devDependencies": {
+    "@eslint-community/eslint-plugin-eslint-comments": "4.7.1",
+    "@eslint/js": "9.39.4",
+    "@stylistic/eslint-plugin": "5.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.58.0",
+    "@typescript-eslint/parser": "^8.58.0",
+    "eslint": "^10.2.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-import-resolver-typescript": "4.4.4",
+    "eslint-plugin-de-morgan": "2.1.1",
+    "eslint-plugin-import-x": "4.16.2",
+    "eslint-plugin-jest": "29.15.1",
+    "eslint-plugin-jest-dom": "5.5.0",
+    "eslint-plugin-no-barrel-files": "1.2.2",
+    "eslint-plugin-perfectionist": "5.7.0",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.0.1",
+    "eslint-plugin-react-refresh": "0.5.2",
+    "eslint-plugin-testing-library": "7.16.2",
+    "eslint-plugin-unicorn": "62.0.0",
+    "globals": "17.4.0",
+    "prettier": "^3.8.1",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "8.58.0"
   }
 }

@@ -135,6 +135,7 @@ describe('randomizeMarbles', () => {
     // expect(result).toStrictEqual([]);
   });
   it('should generate 4 unique colors', () => {
+    // TRY hard coded list of random values
     const result = randomizeMarbles({ uniqueCount: 4, tubeHeight: 4 });
     expect(countMarbles({ currentState: result })).toBe(16);
     // expect(result).toStrictEqual([]);
